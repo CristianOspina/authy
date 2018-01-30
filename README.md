@@ -13,7 +13,7 @@ Elixir library access to the Authy API, based loosely on the [ruby gem](https://
 
   ```
   def deps do
-    [{:authy, github: "365assistance/authy"}]
+    [{:authy, github: "CristianOspina/authy"}]
   end
   ```
 
@@ -34,5 +34,6 @@ Elixir library access to the Authy API, based loosely on the [ruby gem](https://
       via: "sms",
       country_code: "61",
       locale: "en-AU",
+      code_length: 4,
       custom_message: "Verification code, yo!"]
   ```
